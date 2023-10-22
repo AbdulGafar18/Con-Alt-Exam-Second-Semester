@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { useCount } from "../hooks/useCount";
 import { Link } from "react-router-dom";
+import "./App.css";
 
 export default function Counter() {
   const { count, increment, decrement, reset, setValue } = useCount();
@@ -30,7 +31,7 @@ export default function Counter() {
         {" "}
         <p>Back to Home Page</p>{" "}
       </Link> </div>
-      {/* <h3>Created by AbdulGafar</h3> */}
+    
     </div>
   );
 }
